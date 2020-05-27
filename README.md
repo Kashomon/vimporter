@@ -31,10 +31,12 @@ requirements:
 Opening `requirements.vim.txt` in Vim and running `:Vimporter import` clones
 the plugins' autoload directories and renames them appropriately.
 
+So, for the example plugin, these libraries would be copied as:
+
 Note: I've used YAML here for the format.
 
 ## Analysis
 
 * Makes it easier to copy-and-paste plugin code
-* Can't really do interesting dependency analysis: would need to copy the wole
+* Can't really do interesting dependency analysis: would need to copy the whole
   plugins.
