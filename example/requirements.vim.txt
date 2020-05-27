@@ -1,0 +1,4 @@
+namespace: example
+requirements:
+- google/vim-maktaba >= 0.15.0
+- zorp >= 0.1.0
